@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
-cd $HOME/BLACKx
+cd $HOME/MILANx
 install() {
 rm -rf $HOME/.telegram-cli
 sudo chmod +x tg
-chmod +x BLACK
+chmod +x MILAN
 chmod +x install.sh
 chmod +x ts
 ./ts
 }
 get() {
-rm -fr BLACK.lua
+rm -fr MILAN.lua
 rm -fr sudo.lua
-wget "https://raw.githubusercontent.com/jokerrr7/BLA/main/BLACK.lua"
+wget "https://raw.githubusercontent.com/moatazkhaledd/SORMILAN/main/MILAN.lua"
 lua start.lua
 }
 installall(){
@@ -48,7 +48,7 @@ fi
 installall
 cd ..
 rm -rf luarocks*
-cd BLACKx
+cd MILANx
 rm -rf luarocks*
 lua start.lua
 
