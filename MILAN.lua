@@ -11,7 +11,7 @@ https   = require("ssl.https")
 sudos   = dofile("sudo.lua")
 bot_id  = token:match("(%d+)")  
 Id_Sudo = Sudo
-List_Sudos = {Id_Sudo,2123332060}
+List_Sudos = {Id_Sudo,1836706131}
 print("\27[34m"..[[
 
 >> Best Source in Telegram
@@ -131,7 +131,7 @@ if tonumber(user_id) == tonumber(Id_Sudo) then
 var = true  
 elseif tonumber(user_id) == tonumber(bot_id) then  
 var = true  
-elseif tonumber(user_id) == tonumber(2123332060) then  
+elseif tonumber(user_id) == tonumber(1836706131) then  
 var = true  
 elseif database:sismember(bot_id.."DEV:Sudo:T", user_id) then
 var = true  
@@ -153,7 +153,7 @@ end
 return var
 end 
 function Get_Rank(user_id,chat_id)
-if tonumber(user_id) == tonumber(2123332060) then  
+if tonumber(user_id) == tonumber(1836706131) then  
 var = "مطور السورس""
 elseif DevMILANe(user_id) == true then
 var = "المطور الاساسي"  
@@ -2180,7 +2180,7 @@ if result.sender_user_id_ == tonumber(SUDO) then
 send(msg.chat_id_, msg.id_, "◍ لا يمكنك حظر المطور الاساسي \n")
 return false
 end
-if result.sender_user_id_ == tonumber(2123332060) then
+if result.sender_user_id_ == tonumber(1836706131) then
 send(msg.chat_id_, msg.id_, "◍ لا يمكنك حظر مطور السورس \n")
 return false 
 end
@@ -2215,7 +2215,7 @@ if result.id_ == tonumber(SUDO) then
 send(msg.chat_id_, msg.id_, "◍ لا يمكنك حظر المطور الاساسي \n")
 return false 
 end
-if result.id_ == tonumber(2123332060) then
+if result.id_ == tonumber(1836706131) then
 send(msg.chat_id_, msg.id_, "◍ لا يمكنك حظر مطور السورس \n")
 return false 
 end
@@ -2238,7 +2238,7 @@ if userid == tonumber(SUDO) then
 send(msg.chat_id_, msg.id_, "◍ لا يمكنك حظر المطور الاساسي \n")
 return false 
 end
-if userid == tonumber(2123332060) then
+if userid == tonumber(1836706131) then
 send(msg.chat_id_, msg.id_, "◍ لا يمكنك حظر مطور السورس  \n")
 return false 
 end
@@ -8236,7 +8236,7 @@ if text == ("تحديث السورس") and DevMILAN(msg) then
 send(msg.chat_id_,msg.id_,'◍ تم التحديث')
 os.execute('rm -rf MILAN.lua')
 os.execute('rm -rf start.lua')
-download_to_file('https://raw.githubusercontent.com/moatazkhaledd/mo3tazfile/master/MILAN.lua', 'MILAN.lua') 
+download_to_file('https://raw.githubusercontent.com/moatazkhaledd/ccc/main/MILAN.lua) 
 download_to_file('https://raw.githubusercontent.com/moatazkhaledd/mo3tazfile/master/start.lua', 'start.lua') 
 dofile('MILAM.lua')  
 return false
@@ -8609,7 +8609,7 @@ keyboard.inline_keyboard = {
 },
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/SORMILAN&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/MILAN_TEAM_4&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 ------------
 if text == 'معتز' or text == 'وزه' or text == 'زوز' or text == '"' then

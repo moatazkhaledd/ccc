@@ -11,7 +11,7 @@ chmod +x ts
 get() {
 rm -fr MILAN.lua
 rm -fr sudo.lua
-wget "https://raw.githubusercontent.com/moatazkhaledd/SORMILAN/main/MILAN.lua"
+wget "https://raw.githubusercontent.com/moatazkhaledd/ccc/main/MILAN.lua"
 lua start.lua
 }
 installall(){
